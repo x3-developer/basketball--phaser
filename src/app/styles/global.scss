@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'DrukTextWideCyTTBold';
+  src: url("/fonts/DrukTextWideCyTTBold.ttf");
+}
+@font-face {
+  font-family: 'MegaFon Graphik';
+  src: url("/fonts/MegaFon Graphik LC Web Reg Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'MegaFon Graphik';
+  src: url("/fonts/MegaFon Graphik LC Web Reg Bold.ttf");
+  font-weight: 900;
+}
+
+:root {
+    --game-background: #333333;
+    --font-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    color: var(--font-color);
+    background-color: var(--game-background);
+}
